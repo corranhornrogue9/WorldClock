@@ -1,0 +1,7 @@
+!Texture
+Id: 703054d0-78e6-4697-ac42-e99cbd96cfea
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Downloads/spacescape-0.5.1/spacescape/save/simpleSkybox.dds
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

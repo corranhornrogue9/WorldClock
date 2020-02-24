@@ -1,0 +1,13 @@
+!Skeleton
+Id: 20d1f7b5-e773-42c6-a3a5-3576b0237329
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Downloads/Earth_2K.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2afcdda71ad9ed38103d6e5fc08af750: {Name: RootNode, Depth: 0}
+    201cfbc8688505db5d4eba39c659a95b: {Name: Earth, Depth: 1}
+    6da6eb4eab77ae69b68b7df62541a2ad: {Name: Atmosphere, Depth: 2}
+    fefbc3cb54d20c02126bfec67a70561f: {Name: Clouds, Depth: 2}
+~SourceHashes:
+    b8e555f028d0f59607a0668bd654c8a4~../../../../../Downloads/Earth_2K.fbx: 7027b90d564c18731c75daac9bd7ae02

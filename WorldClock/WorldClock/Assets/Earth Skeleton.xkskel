@@ -1,0 +1,11 @@
+!Skeleton
+Id: 72890323-50bc-4a7f-9622-3085eebd25f6
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Downloads/earth.obj
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    61864a91e783972818e01adc217dc88d: {Name: earth.obj, Depth: 0}
+    740ae5beca46459a5a4ecd6e35dd518e: {Name: Sphere, Depth: 1}
+~SourceHashes:
+    6b7bd94ba033ee860d0c1fa1ecfdd42d~../../../../../Downloads/earth.obj: 1795e45329981e90abe6b741567fc521

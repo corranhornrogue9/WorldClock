@@ -1,0 +1,116 @@
+!UIPageAsset
+Id: e09ab404-25e1-46c1-a5f7-108effd8e4bc
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! eea85188-d5e4-4574-8b04-b525aa095aeb
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 1d262400-d825-436c-9c39-d63c16adfbca
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: DateBlock
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 40.0
+                TextColor: {R: 225, G: 15, B: 15, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 54bf1c68-dd23-4b57-87bb-f75aba5f434a
+                DependencyProperties:
+                    4eaa59233c0ae552eabfd66e3cfeab21~Panel.ZIndexPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 319.0
+                Height: 51.0
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: TimeBlock
+                Text: Time Not Working
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 40.0
+                TextColor: {R: 225, G: 15, B: 15, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 5fb828e5-1253-4a49-948d-9628cd50b8be
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Title
+                Text: The Name
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 40.0
+                TextColor: {R: 225, G: 15, B: 15, A: 255}
+                TextAlignment: Center
+        -   UIElement: !StackPanel
+                Id: 6bf2dcf3-0883-4f63-b08f-0d15675548b4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    9f8ea25cf5a099242d00a94744f7c56a: !TextBlock ref!! 5fb828e5-1253-4a49-948d-9628cd50b8be
+                    c13465fba532d3483023dbc725ad3e8e: !TextBlock ref!! 54bf1c68-dd23-4b57-87bb-f75aba5f434a
+                    326a50e670539dd394fea446913a9db8: !TextBlock ref!! 1d262400-d825-436c-9c39-d63c16adfbca
+        -   UIElement: !Border
+                Id: 77f08e6e-1567-438f-955f-5f91a3d44bd7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Opacity: 0.5
+                Width: 339.0
+                Height: 400.0
+                HorizontalAlignment: Right
+                Margin: {Top: 47.0, Right: 58.0, Bottom: 273.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: FeatureClock
+                Padding: {}
+                BorderColor: {R: 16, G: 3, B: 95, A: 255}
+                BorderThickness: {Left: 10.0, Top: 10.0, Right: 10.0, Bottom: 10.0}
+        -   UIElement: !Border
+                Id: 8e8a3e9b-86a7-4110-9d6b-2e9973286d77
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 339.0
+                Height: 400.0
+                HorizontalAlignment: Left
+                Margin: {Left: 47.0, Top: 47.0, Bottom: 273.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: MainClock
+                Padding: {}
+                Content: !StackPanel ref!! 6bf2dcf3-0883-4f63-b08f-0d15675548b4
+                BorderColor: {R: 225, G: 15, B: 15, A: 255}
+                BorderThickness: {Left: 10.0, Top: 10.0, Right: 10.0, Bottom: 10.0}
+        -   UIElement: !TextBlock
+                Id: e16edd62-37b3-41be-9ce7-69ac46c28998
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: eea85188-d5e4-4574-8b04-b525aa095aeb
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    80bcf5e71a0db34dc632ebdfa38c4d0e: !Border ref!! 8e8a3e9b-86a7-4110-9d6b-2e9973286d77
+                    98a17aa0d06a7a5868fed5daad4a9db3: !Border ref!! 77f08e6e-1567-438f-955f-5f91a3d44bd7
+                    3f411f6ad3d21e26707f1212b0d9ce0f: !TextBlock ref!! e16edd62-37b3-41be-9ce7-69ac46c28998
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}

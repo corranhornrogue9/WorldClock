@@ -1,0 +1,141 @@
+!SceneAsset
+Id: 0526bc76-a704-4400-94fc-c8fabccc723b
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 49d69700-0b76-4995-801f-8ee6d1a13b68
+        - ref!! 0f403710-cb4d-4266-b75f-ad058ac12733
+        - ref!! 3b175480-2436-47e7-904a-0a73c5a04ca0
+        - ref!! 1cf70331-13f3-425f-a39e-ce38004659ef
+    Parts:
+        -   Entity:
+                Id: 08a74556-4f6b-4c5f-96cd-06f51d62ace5
+                Name: Page
+                Components:
+                    60d707cff17cee1cdeb518b44dbd8efd: !TransformComponent
+                        Id: 587c23e6-085f-44b5-9b3b-5263ebcf82ba
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    968fd31726b8405bdbfcbdc898573d28: !UIComponent
+                        Id: 4b3fab1b-9829-4bca-8c75-770c8ad60c88
+                        Page: e09ab404-25e1-46c1-a5f7-108effd8e4bc:Page
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    b1d7b9750d71a55cc915b0cf0d908c85: !WorldClock.ClockBlock,WorldClock
+                        Id: 689d1f1b-94b0-484f-92d0-3c707efa5c0d
+                        BlockName: MainClock
+                        Title: Gloucester
+        -   Entity:
+                Id: 0f403710-cb4d-4266-b75f-ad058ac12733
+                Name: Earth (1)
+                Components:
+                    762ec89b0bfc1594bf5ffdfccddba74b: !TransformComponent
+                        Id: 239f6f3b-2868-47fb-a45d-6ed0e91fef4a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 30.0, Y: 30.0, Z: 30.0}
+                        Children: {}
+                    83731fd49790878da718f4029a0dbbab: !ModelComponent
+                        Id: 74b68c5b-9c38-4ce0-a794-6f082f6640bb
+                        Model: 00065dc6-cbee-4114-9fe5-b8e98abfa8fe:Earth (1)
+                        Materials: {}
+                    4497e8074fb799904a5ef2e52febdd6a: !WorldClock.SunSpin,WorldClock
+                        Id: 6922b312-df8b-4f9e-84c2-33ad95ecc943
+                        CurrentAngle: 0.0
+        -   Entity:
+                Id: 1cf70331-13f3-425f-a39e-ce38004659ef
+                Name: SunDisk
+                Components:
+                    f99b54538e95d63eb20cc2961c34036c: !TransformComponent
+                        Id: 84380398-f8d0-474d-b3ae-ad06dfe1bbc4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.199367926, Y: 0.0, Z: 0.0, W: 0.9799247}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a36cdb04063a019e7711bee190010c3f: ref!! ec7f4ff7-81ce-49f6-8956-bd18aa63cdb6
+                            9e6008e6799bd5c1972282cbe0501be6: ref!! 36ba77b0-836a-4469-acf8-6ffb9770de63
+                    403256d4af503fcd3aab62a106aef69b: !WorldClock.EarthSpin,WorldClock
+                        Id: a42a64f9-5a66-45ec-ae05-1ccbb7126eb8
+                        CurrentAngle: 0.0
+        -   Entity:
+                Id: 3b175480-2436-47e7-904a-0a73c5a04ca0
+                Name: Skybox light
+                Components:
+                    45bb68903bdc5effa8cec5dd3f7ec164: !TransformComponent
+                        Id: f2097a5a-e77b-46bf-8eed-84964fe06f31
+                        Position: {X: 0.0, Y: 0.0, Z: -305.914124}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    054042898fc0b887b9a8d8851f15f97f: !LightComponent
+                        Id: 6d75cc69-59d7-4f57-b459-652ffdef68d4
+                        Type: !LightSkybox
+                            Skybox: 78d8354a-dfe2-41bf-b5ca-348d0b8a76ec:Skybox_2
+                    e0555e4608a1ee95b8b35941da43a3a6: !BackgroundComponent
+                        Id: 7840872d-1d82-4b4b-ae0f-40eb5b189d64
+                        Texture: 703054d0-78e6-4697-ac42-e99cbd96cfea:simpleSkybox
+        -   Entity:
+                Id: 49d69700-0b76-4995-801f-8ee6d1a13b68
+                Name: Camera
+                Components:
+                    4ee945e036c625b552c4f601dc8aadf9: !TransformComponent
+                        Id: 2a1a1d66-c403-4a7e-84d1-9de47f009e6f
+                        Position: {X: 201.794525, Y: 0.0, Z: 160.590042}
+                        Rotation: {X: 0.0, Y: 0.326063275, Z: 0.0, W: 0.9453479}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            9a232551931e277305194d2eb0085251: ref!! 587c23e6-085f-44b5-9b3b-5263ebcf82ba
+                    3714ed93f3718acc9bc804cd7dfee64e: !CameraComponent
+                        Id: 4df86076-a26b-4487-b65b-8793d66e5cc7
+                        Name: null
+                        Projection: Perspective
+                        Slot: 25191e3e-369e-433c-91cd-caccabed5c64
+                    b369c2a2ffe8845537db743c13e80e37: !WorldClock.BasicCameraController,WorldClock
+                        Id: 0400065b-a729-4680-b5d7-1038447c3c18
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: 59dc4973-1763-411a-92d2-675d02285a48
+                Name: Point light
+                Components:
+                    1f602a302a1cf4cf1e25eb58fb574619: !TransformComponent
+                        Id: ec7f4ff7-81ce-49f6-8956-bd18aa63cdb6
+                        Position: {X: -243.893, Y: 2.0, Z: -6.917315}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9d1d560fd888615f8d83ff948c6f43ef: !LightComponent
+                        Id: a9e558d8-400c-486a-b4ff-63804476e2ba
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+        -   Entity:
+                Id: efb7b72b-043b-4f3a-ac4b-af91d28c218d
+                Name: EarthSpin
+                Components:
+                    c211a2f068c807657046d92e46b32d4f: !TransformComponent
+                        Id: 36ba77b0-836a-4469-acf8-6ffb9770de63
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e0754d1ad674f84d0bd36760590aa3e2: !WorldClock.EarthSpin,WorldClock
+                        Id: 21dde4f7-8bc1-4778-99a2-f330075718ab
+                        CurrentAngle: 0.0

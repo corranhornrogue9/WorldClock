@@ -1,0 +1,7 @@
+!Texture
+Id: e594a637-3c90-42ff-834c-af0877148f9e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Downloads/Earth_TEXTURE_CM.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

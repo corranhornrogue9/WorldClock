@@ -1,0 +1,15 @@
+!Model
+Id: 00065dc6-cbee-4114-9fe5-b8e98abfa8fe
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Downloads/Earth (1).obj
+Skeleton: ec0e6725-ffbb-430d-9368-aaa50ce74039:Earth (1) Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    282ee82d7944f36f8ceb208c37951c1b:
+        Name: Earth_MATERIAL
+        MaterialInstance:
+            Material: 246e4d71-4eb8-4982-9a1f-5e4429afa886:Earth_MATERIAL_2
+Modifiers: {}
+~SourceHashes:
+    386282c9ec2986350cc799b2449e7f99~../../../../../Downloads/Earth (1).obj: 664c829d8e0adc9bd32df2ce369f6d9b

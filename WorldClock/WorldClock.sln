@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldClock.Windows", "WorldClock.Windows\WorldClock.Windows.csproj", "{68DE655B-BFEE-4484-926F-CDAB50A2563D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldClock", "WorldClock\WorldClock.csproj", "{3AE3BEEF-223F-4124-A149-A6ECDC82DB1C}"
+EndProject
+Global
+EndGlobal
