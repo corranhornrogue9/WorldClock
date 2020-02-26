@@ -1,0 +1,7 @@
+!Texture
+Id: 16483734-fa0a-4c64-b93f-3caa357a8641
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file 4096_night_lights.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

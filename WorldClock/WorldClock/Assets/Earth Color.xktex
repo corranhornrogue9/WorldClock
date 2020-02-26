@@ -1,0 +1,7 @@
+!Texture
+Id: 185e4079-2240-455a-88b5-9af951abd0d2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file 4096_earth.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

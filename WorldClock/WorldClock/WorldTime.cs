@@ -8,7 +8,7 @@ using Xenko.Input;
 using Xenko.Engine;
 
 namespace WorldClock
-{
+{    
     public interface IWorldTime
     {
         DateTime GetTime();     

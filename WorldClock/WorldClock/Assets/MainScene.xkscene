@@ -43,10 +43,16 @@ Hierarchy:
                     83731fd49790878da718f4029a0dbbab: !ModelComponent
                         Id: 74b68c5b-9c38-4ce0-a794-6f082f6640bb
                         Model: 00065dc6-cbee-4114-9fe5-b8e98abfa8fe:Earth (1)
-                        Materials: {}
-                    4497e8074fb799904a5ef2e52febdd6a: !WorldClock.SunSpin,WorldClock
-                        Id: 6922b312-df8b-4f9e-84c2-33ad95ecc943
+                        Materials:
+                            6ac90840d257abf9e79e7aab7e6bb34a~0: 246e4d71-4eb8-4982-9a1f-5e4429afa886:Earth_MATERIAL_2
+                    e854dcf20a63434cd0e4abb2178070c1: !WorldClock.SunSpin,WorldClock
+                        Id: 7aadd606-d341-41a4-8eaf-e3a06059fe86
                         CurrentAngle: 0.0
+                    8e92ecf14e79bfed944192ab67896ff1: !WorldClock.SiteSpawner,WorldClock
+                        Id: e7f0284f-5c02-43a4-8280-bc6edcc83987
+                        Sites: {}
+                        sitePrefab: 7de8bb82-d453-4c7f-abe9-649bee2d2d26:SunDisk (3)
+                        Radius: 75.0
         -   Entity:
                 Id: 1cf70331-13f3-425f-a39e-ce38004659ef
                 Name: SunDisk
@@ -54,7 +60,7 @@ Hierarchy:
                     f99b54538e95d63eb20cc2961c34036c: !TransformComponent
                         Id: 84380398-f8d0-474d-b3ae-ad06dfe1bbc4
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.199367926, Y: 0.0, Z: 0.0, W: 0.9799247}
+                        Rotation: {X: 0.9961947, Y: 0.0, Z: 0.0, W: 0.087155804}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             a36cdb04063a019e7711bee190010c3f: ref!! ec7f4ff7-81ce-49f6-8956-bd18aa63cdb6
@@ -79,13 +85,14 @@ Hierarchy:
                     e0555e4608a1ee95b8b35941da43a3a6: !BackgroundComponent
                         Id: 7840872d-1d82-4b4b-ae0f-40eb5b189d64
                         Texture: 703054d0-78e6-4697-ac42-e99cbd96cfea:simpleSkybox
+                        Intensity: 31.44
         -   Entity:
                 Id: 49d69700-0b76-4995-801f-8ee6d1a13b68
                 Name: Camera
                 Components:
                     4ee945e036c625b552c4f601dc8aadf9: !TransformComponent
                         Id: 2a1a1d66-c403-4a7e-84d1-9de47f009e6f
-                        Position: {X: 201.794525, Y: 0.0, Z: 160.590042}
+                        Position: {X: 75.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.326063275, Z: 0.0, W: 0.9453479}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:

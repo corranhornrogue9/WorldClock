@@ -9,7 +9,7 @@ Materials:
     282ee82d7944f36f8ceb208c37951c1b:
         Name: Earth_MATERIAL
         MaterialInstance:
-            Material: 246e4d71-4eb8-4982-9a1f-5e4429afa886:Earth_MATERIAL_2
+            Material: fa504885-661a-436d-a8d1-998d11958dbd:EarthSurface
 Modifiers: {}
 ~SourceHashes:
     386282c9ec2986350cc799b2449e7f99~../../../../../Downloads/Earth (1).obj: 664c829d8e0adc9bd32df2ce369f6d9b

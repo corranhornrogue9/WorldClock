@@ -1,0 +1,6 @@
+!Texture
+Id: 9c6783ca-2b8e-4d42-9bb4-64fb892c3a38
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file 4096_normal.jpg
+Type: !NormalMapTextureType {}

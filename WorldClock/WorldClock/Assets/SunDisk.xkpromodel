@@ -3,7 +3,7 @@ Id: 4b9ea0d4-7450-4a54-885d-8b7ef31ece48
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Type: !CylinderProceduralModel
-    Radius: 200.0
+    Radius: 10.0
     Scale: {X: 1.0, Y: 1.0, Z: 1.0}
     UvScale: {X: 1.0, Y: 1.0}
     LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}

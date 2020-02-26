@@ -1,0 +1,15 @@
+!Model
+Id: f46c7c31-490c-4a59-89c3-b500927f1371
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file earth_revamp.obj
+Skeleton: cbb1231a-cdd7-4486-a7e6-62abb3eec65c:earth_revamp Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8ae7853b4802185f809f5b3ef9ca784b:
+        Name: 01
+        MaterialInstance:
+            Material: fa504885-661a-436d-a8d1-998d11958dbd:EarthSurface
+Modifiers: {}
+~SourceHashes:
+    9701c9dfd4c36e1e9e5d096d763a183b~earth_revamp.obj: f705dd0c9b89e0b03469a509c913f724

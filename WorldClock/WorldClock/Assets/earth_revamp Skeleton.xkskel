@@ -1,0 +1,12 @@
+!Skeleton
+Id: cbb1231a-cdd7-4486-a7e6-62abb3eec65c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file earth_revamp.obj
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    24b1e0213ea75b0350cd91a6d688928e: {Name: earth_revamp.obj, Depth: 0}
+    9cf4b857f3d8877143d00e1d4dddb0d8: {Name: Sphere001, Depth: 1}
+    416919ed12b5bf1d0d6d9e73ec1f3b09: {Name: Sphere002, Depth: 1}
+~SourceHashes:
+    8abda30cc41ec03c66eadd3f390b672d~earth_revamp.obj: f705dd0c9b89e0b03469a509c913f724

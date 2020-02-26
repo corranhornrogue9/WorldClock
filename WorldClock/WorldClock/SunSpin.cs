@@ -25,7 +25,7 @@ namespace WorldClock
         {
             CurrentAngle = (float)((360f / 31557600 )* (((31557600 / 365) * time.GetTime().DayOfYear  ) + time.GetTime().TimeOfDay.TotalSeconds));
             
-            Log.Info("Current sun angle " + CurrentAngle);
+            //Log.Info("Current sun angle " + CurrentAngle);
             Entity.Transform.Rotation = Quaternion.RotationY(CurrentAngle);
         }
     }

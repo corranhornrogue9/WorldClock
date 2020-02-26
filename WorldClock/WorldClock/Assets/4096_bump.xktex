@@ -1,0 +1,6 @@
+!Texture
+Id: d02d8e56-87ad-40d0-b863-6f055276ae5b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file 4096_bump.jpg
+Type: !GrayscaleTextureType {}

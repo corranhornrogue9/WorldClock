@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 80e7d2f4-d09c-4c81-b34f-fd7f06e3acdc
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! a34a9834-0129-4f89-81f0-852bad345a95
+    Parts:
+        -   Entity:
+                Id: a34a9834-0129-4f89-81f0-852bad345a95
+                Name: SunDisk
+                Components:
+                    20429d4c1384535b1f4b4cdc69b9bb17: !TransformComponent
+                        Id: b8d14bd0-7424-49f0-9f03-ff855cf06625
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3640fb783f3c87894e2e1c2d0d897c07: !ModelComponent
+                        Id: 39b03917-4cd6-436d-ab59-cf156d6e02fc
+                        Model: 4b9ea0d4-7450-4a54-885d-8b7ef31ece48:SunDisk
+                        Materials: {}
